@@ -29,7 +29,7 @@ const ValentineQuiz = () => {
     {
       question: "What movie did we watch the first time I stayed over?",
       options: ["Midsommar", "Hereditary", "The Ritual", "Don't Look Up"],
-      correctAnswer: "The Ritual",
+      correctAnswer: "Don't Look Up",
       message: "We watched Don't Look Up the first time, the horror movie (The Ritual) was the second time. I kept trying to tell you how good this movie was and you weren't paying attention 🙄. To be honest, I was really considering whether I should make a move but I was too nervous because I wasn't sure if you were into me 🤣. But the second time you invited me over, it became obvious (also I decided I was going to make it happen by insisting we watch a horror movie)."
     },
     {
@@ -315,10 +315,6 @@ const ValentineQuiz = () => {
       startDate: "2025027T180000", // Feb 14, 2024, 6:00 PM
       endDate: "2025027T220000",   // Feb 14, 2024, 10:00 PM
       location: "Waterloo",
-      attendees: [
-        "mailto:alialhamadani72@gmail.com",
-        "mailto:Nourannhussainn@gmail.com"
-      ]
     };
   
     // Create the ICS file content
@@ -346,7 +342,7 @@ END:VCALENDAR`;
   const FinalScreen = () => {
     const handleYesClick = () => {
       // Show a sweet message
-      alert("Yay! My heart is yours! 💖\n\nI've prepared a special date for us - check your downloads folder for the calendar invite with all the details! 📅");
+      alert("Wooooooo!!!!!!!! Mwahat sexyyyyyy 💖\n\nI've prepared a special date for us - check your downloads folder for the calendar invite with all the details! 📅");
       // Generate and download the calendar invite
       createCalendarFile();
     };
@@ -359,7 +355,7 @@ END:VCALENDAR`;
             Will you be my Valentine?
           </h1>
           <p className="text-xl mb-8 text-gray-700">
-            Every moment with you makes my heart skip a beat. All these memories we've shared are just the beginning. Would you make me the happiest person and be my Valentine Nouran?
+            I can't wait to spend a million more years with you Nouran. I love you forever and ever. Would you make me the happiest person and be my Valentine?
           </p>
           <div className="bg-pink-50 p-6 rounded-xl border-2 border-pink-100 mb-8">
             <p className="text-lg text-gray-700 mb-2">
